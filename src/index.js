@@ -1,12 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import React from 'react'; // importa la libreria react
+import ReactDOM from 'react-dom'; // importa el modulo reactDOM
+import './index.css'; // importa el css del componente y con ./ indicamos la ubicacion, en este caso es en la misma carpeta
+//import App from './App'; // importamos la clase  App dentro del archivo App y no necesita especificar que sea js.
+
 import reportWebVitals from './reportWebVitals';
+import 'tachyons';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    </>
   </React.StrictMode>,
   document.getElementById('root')
 );
